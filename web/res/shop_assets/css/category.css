@@ -1,0 +1,243 @@
+.block
+{
+    width: 40%;
+    min-height: 500px;
+    height: auto;
+}
+
+.bl1
+{
+    position: absolute;
+    top: 10px;
+    left: 2%;
+}
+
+.bl2
+{
+    position: absolute;
+    top: 10px;
+    left: 58%;
+}
+
+.bl3
+{
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    margin-bottom: 10px;
+}
+
+.bigPic
+{
+    width: 60%;
+    min-height: 180px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.bigPic figure img
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 160px;
+    border: 3px solid white;
+}
+
+.bigPic figcaption
+{
+    font: .7em Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 1px 0 0 0;
+}
+
+.bigPic figure
+{
+    width: 100%;
+    margin: 0;
+}
+
+.content
+{
+    box-sizing: border-box;
+    background-color: white;
+    width: 60%;
+    min-height: 250px;
+    height: auto;
+    margin: 20px 0 10px 10px;
+}
+
+.content .buttons
+{
+    width: 100%;
+    height: 38px;
+    background-color: silver;
+    border: none;
+}
+
+.buttons .btn
+{
+    box-sizing: border-box;
+    width: 30%;
+    margin-top: 2px;
+    height: 36px;
+    float: left;
+    background-color: white;
+    border: 2px solid silver;
+    border-radius: 5px 5px 0 0;
+    color: royalblue;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.buttons .btn:hover
+{
+    color: deeppink;
+    border-bottom: none;
+}
+
+.content .img
+{
+    box-sizing: border-box;
+    border: 2px solid silver;
+    width: 60%;
+    min-height: 100px;
+    margin: 8px 10px 0 8px;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.content .text
+{
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text a
+{
+    color: royalblue;
+}
+
+.text a:hover
+{
+    color: deeppink;
+}
+
+.smallPic
+{
+    position: absolute;
+    left: 65%;
+    top: 10px;
+    width: 32%;
+    min-height: 470px;
+    height: auto;
+    float: right;
+    margin-left: 1%;
+}
+
+.smallPic figure img
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 65px;
+    border: 2px solid white;
+}
+
+.smallPic figcaption
+{
+    font: .7em Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 1px 0 0 0;
+}
+
+.smallPic figure
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin: 0 10px 10px 5px;
+}
+
+.bigPic3
+{
+    background-size: 100% 100%;
+    border: 3px solid lightgreen;
+}
+
+.midPic
+{
+    position: absolute;
+    left: 65%;
+    top: 10px;
+    width: 32%;
+    min-height: 470px;
+    height: auto;
+    float: right;
+    margin-left: .2%;
+}
+
+.midPic figure img
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 85px;
+    border: 2px solid white;
+}
+
+.midPic figcaption
+{
+    font: .7em Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 1px 0 0 0;
+}
+
+.midPic figure
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.content .buttons3
+{
+    width: 100%;
+    height: 38px;
+    background-color: deepskyblue;
+    border: none;
+}
+
+.buttons3 .btn3
+{
+    box-sizing: border-box;
+    width: 30%;
+    margin-top: 2px;
+    height: 36px;
+    float: left;
+    background-color: cornflowerblue;
+    border: 2px solid deepskyblue;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.buttons3 .btn3:hover
+{
+    color: white;
+    background-color: limegreen;
+    border-bottom: none;
+}
